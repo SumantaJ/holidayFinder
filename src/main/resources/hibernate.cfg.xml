@@ -1,0 +1,7 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.show_sql">true</property>
+        <mapping class="com.holidays.model.HolidayDataModel"/>
+        <mapping class="com.holidays.model.DateDetails"/>
+    </session-factory>
+</hibernate-configuration>

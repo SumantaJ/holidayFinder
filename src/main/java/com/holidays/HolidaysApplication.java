@@ -1,5 +1,6 @@
-package com.holidays.holidays;
+package com.holidays;
 
+import com.holidays.model.HolidayDataModel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,5 +10,6 @@ public class HolidaysApplication {
     public static void main(String[] args) {
         SpringApplication.run(HolidaysApplication.class, args);
     }
+
 
 }
